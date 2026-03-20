@@ -5,11 +5,18 @@ import {ToastContainer} from 'react-toastify'
 
 import './index.css'
 import App from './App.jsx'
+import RecipeContextProvider from './context/RecipeContext.jsx'
+
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+ <RecipeContextProvider>
+     <BrowserRouter>
    <App />
    <ToastContainer/>
   </BrowserRouter>
+ </RecipeContextProvider>
+  
 
+  
+ 
 )

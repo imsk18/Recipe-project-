@@ -11,3 +11,43 @@ height: 100%;
 body{
   background-color: #121010;
 }
+
+#navbar{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* create recipe  */
+form{
+  padding: 2rem;
+  background-color: #323030;
+ 
+}
+
+input{
+  background-color: #1e1c32;
+  border: 0px;
+  
+}
+textarea{
+  background-color: #1e1c32;
+  border: none;
+}
+button{
+  background-color: #200707;
+  border: 2px  rgb(53, 69, 99) solid;
+  padding: 0.3rem;
+  color: rgb(98, 149, 194);
+}
+select{
+  background-color: #191818;
+  color: gainsboro;
+}
+
+/* recipe page */
+.recipe img{
+  height: 200px;
+}
